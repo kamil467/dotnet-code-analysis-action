@@ -1,0 +1,16 @@
+﻿global using System.Globalization;
+global using System.Text;
+global using System.Web;
+global using CommandLine;
+global using CodeAnalysis;
+global using DotNet.Action;
+global using DotNet.Action.Analyzers;
+global using DotNet.Action.Extensions;
+global using Markdown;
+global using Microsoft.CodeAnalysis;
+global using Microsoft.CodeAnalysis.CodeMetrics;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.FileSystemGlobbing;
+global using Microsoft.Extensions.Hosting;
+global using Microsoft.Extensions.Logging;
+global using static CommandLine.Parser;
